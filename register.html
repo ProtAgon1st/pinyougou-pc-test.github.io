@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册页面 - 购！我喜欢</title>
+    <link rel="stylesheet" href="styles/init.css" type="text/css">
+    <link rel="stylesheet" href="styles/register.css" type="text/css">
+    <link rel="shortcut icon" href="images/logo.png">
+
+</head>
+
+<body>
+    <header class="w">
+        <div><a href="index.html"><img src="images/pinyougou.png" alt="logo" title="品优购"></a></div>
+    </header>
+    <!-- main开始 -->
+    <section class="main w">
+        <div class="head">
+            <p>注册新用户</p>
+            <p>我有账号，去<a href="#">登录</a></p>
+        </div>
+        <div class="body">
+            <form action="">
+                <ul>
+                    <li class="clearfix">
+                        <div><label for="tel">手机号：</label></div>
+                        <div>
+                            <input type="tel" placeholder="请输入11位手机号" maxlength="11" id="tel">
+                        </div>
+                    </li>
+                    <li class="clearfix">
+                        <div><label for="yanzheng">短信验证码：</label></div>
+                        <div>
+                            <input type="tel" placeholder="请输入验证码" maxlength="4" id="yanzheng">
+                        </div>
+                    </li>
+                    <li class="clearfix">
+                        <div><label for="pwd">登录密码：</label></div>
+                        <div>
+                            <input type="password" placeholder="请输入密码" maxlength="10" id="pwd">
+                        </div>
+                    </li>
+                    <li class="safe">
+                        安全程度<em>弱</em><em>中</em><em>强</em>
+                    </li>
+                    <li class="clearfix">
+                        <div><label for="repwd">确认密码：</label></div>
+                        <div>
+                            <input type=" password" placeholder="请再次输入密码" maxlength="10" id="repwd">
+                        </div>
+                    </li>
+                    <li>
+                        <input type="checkbox" value="true" id="confirm"><label for="confirm"> 同意协议并注册
+                            <a href="#">《用户协议》</a></label>
+                    </li>
+                    <li>
+                        <input type="submit" value="完成注册" id="btn">
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </section>
+    <!-- main结束 -->
+
+    <!-- footer开始 -->
+    <!-- 不加class="footer"权重不够，无法修改margin值！！！ -->
+    <footer class="footer w">
+        <div class="links">
+            <ul class="clearfix">
+                <li><a href="#">关于我们</a></li>
+                <li><a href="#">联系我们</a></li>
+                <li><a href="#">联系客服</a></li>
+                <li><a href="#">商家入驻</a></li>
+                <li><a href="#">营销中心</a></li>
+                <li><a href="#">手机品优购</a></li>
+                <li><a href="#">友情链接</a></li>
+                <li><a href="#">销售联盟</a></li>
+                <li><a href="#">品优购社区</a></li>
+                <li><a href="#">品优购公益</a></li>
+                <li><a href="#">English Site</a></li>
+                <li><a href="#">Contact U</a></li>
+            </ul>
+        </div>
+        <!-- 链接居中的另一种方法 -->
+        <!-- <div class="links"> <a href="#">关于我们</a></div> -->
+        <div class="info">
+            <p>地址：北京市昌平区建材城西路金燕龙办公楼一层 邮编：100096 电话：400-618-4000 传真：010-82935100 邮箱: zhanghj+itcast.cn</p>
+            <p>京ICP备08001421号京公网安备110108007702</p>
+        </div>
+    </footer>
+    <!-- footer结束 -->
+
+    <!-- 
+    <div class="test">
+    </div> -->
+
+</body>
+
+</html>
